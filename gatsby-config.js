@@ -1,15 +1,42 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Mik(eye)el`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Menilek`,
+      summary: `Fighting to craft a delightful future`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A Multidisciplinary Creative`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `kylemathews`,
-    },
+    },menuLinks:[
+      {
+        name:'film',
+        link:'/film'
+      },
+      {
+        name:'photography',
+        link:'/photography'
+      },
+      {
+        name:'about',
+        link:'/about'
+      },
+      {
+        name:'contact',
+        link:'/contact'
+      }
+    ],
+    socialLinks:[
+      {
+        name:'instagram',
+        link:'https://www.instagram.com/mikaels_album/'
+      },
+      {
+        name:'vimeo',
+        link:'https://www.instagram.com/mikaels_album/'
+      }
+    ],
   },
   plugins: [
     {
