@@ -9,7 +9,8 @@ module.exports = {
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `kylemathews`,
-    },menuLinks:[
+    },
+    menuLinks:[
       {
         name:'film',
         link:'/film'
