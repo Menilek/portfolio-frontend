@@ -26,6 +26,9 @@ const SEO = ({ description, lang, meta, title }) => {
               name
               link
             }
+            social {
+              twitter
+            }
           }
         }
       }
